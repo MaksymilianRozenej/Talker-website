@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TALKER</title>
+         <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
+        <link rel="icon" href="favicon.ico">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $(window).on('scroll', function(){
+                    if($(window).scrollTop()){
+                        $(".sub-header").addClass('active');
+                    }else{
+                        $(".sub-header").removeClass('active');
+                    }
+                })
+            });
+        </script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <header id="backimage" class="bg-image">
+                <div class="header">
+                    <nav class="sub-header">
+                        <a class="menu-left" href="Index.html">Info</a>
+                        <a class="menu-left" href="oferta.html">Download</a>
+                        <a class="menu-logo"  >Talker</a>
+                        <a class="menu-right" href="kontakt.html">Contact</a>
+                        <a class="menu-right" href="galeria.html">Gallery</a>
+                        
+                        <b class="menu-left" href="Index.html"><img class="info" src="images/baseline-info-24px.svg" onClick="window.location.href = 'Index.html'"></b>
+                        <b class="menu-left" href="oferta.html"><img class="ofer" src="images/baseline-shop_two-24px.svg" onClick="window.location.href = 'oferta.html'"></b>
+                        <b class="menu-logo"  >Talker</b>
+                        <b class="menu-right" href="kontakt.html"><img class="kont" src="images/baseline-perm_phone_msg-24px.svg" onClick="window.location.href = 'kontakt.html'"></b>
+                        <b class="menu-right" href="galeria.html"><img class="gale" src="images/baseline-photo_camera-24px.svg" onClick="window.location.href = 'galeria.html'"></b>
+                    </nav>
+                </div>    
+            </header>
+        
+            <section>
+                <article>
+                    <h1>TALKER</h1>
+                    <p1>Is and application that lets you communicate with friends all over the world!</p1>
+                    <p2>You can create an account, login and in couple of seconds be closer to your mates. <br></p2>
+                    <p3></p3>
+                    <h2>Sign in !</h2>
+                    <p4><img src="images/baseline-perm_identity-24px.svg">Unique Account<br>
+                    <img src="images/baseline-alarm-24px%20(1).svg">Fast and easy settup!<br>
+                    <img src="images/baseline-check_circle_outline-24px%20(1).svg">Stable external server<br>
+                    Do you have any questions? contact us! You can send us E-mail at:<br></p4>
+                    <p5>talkermax@gmail.com</p5>
+                </article>
+            </section>
+        </div>
+        <footer>
+            Created by Maksymilian Rożenej 2018
+        </footer>
+    </body>  
+</html>

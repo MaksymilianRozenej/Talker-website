@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TALKER</title>
+         <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
+        <link rel="icon" href="favicon.ico">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $(window).on('scroll', function(){
+                    if($(window).scrollTop()){
+                        $(".sub-header").addClass('active');
+                    }else{
+                        $(".sub-header").removeClass('active');
+                    }
+                })
+            });
+        </script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <header id="backimage" class="bg-image">
+                <div class="header">
+                    <nav class="sub-header">
+                        <a class="menu-left" href="Index.html">Info</a>
+                        <a class="menu-left" href="oferta.html">Download</a>
+                        <a class="menu-logo"  >Talker</a>
+                        <a class="menu-right" href="kontakt.html">Contact</a>
+                        <a class="menu-right" href="galeria.html">Gallery</a>
+                        
+                        <b class="menu-left" href="Index.html"><img class="info" src="images/baseline-info-24px.svg" onClick="window.location.href = 'Index.html'"></b>
+                        <b class="menu-left" href="oferta.html"><img class="ofer" src="images/baseline-shop_two-24px.svg" onClick="window.location.href = 'oferta.html'"></b>
+                        <b class="menu-logo"  >Talker</b>
+                        <b class="menu-right" href="kontakt.html"><img class="kont" src="images/baseline-perm_phone_msg-24px.svg" onClick="window.location.href = 'kontakt.html'"></b>
+                        <b class="menu-right" href="galeria.html"><img class="gale" src="images/baseline-photo_camera-24px.svg" onClick="window.location.href = 'galeria.html'"></b>
+                    </nav>
+                </div>    
+            </header>
+        
+            <section>
+                <article>
+                   <h2>Talker</h2>
+                    <h4>Images of application</h4>
+
+                    <div class="responsive">
+                    <div class="gallery">
+                    <a target="_blank" href="images/DSCF2404.JPG">
+                    <img src="images/DSCF2404.JPG" alt="Cinque Terre" width="600" height="400">
+                    </a>
+                    <div class="desc">Add a description of the image here</div>
+                    </div>
+                    </div>
+
+
+                    <div class="responsive">
+                    <div class="gallery">
+                    <a target="_blank" href="images/DSCF2425.JPG">
+                    <img src="images/DSCF2425.JPG" alt="Forest" width="600" height="400">
+                    </a>
+                    <div class="desc">Add a description of the image here</div>
+                    </div>
+                    </div>
+
+                    <div class="responsive">
+                    <div class="gallery">
+                    <a target="_blank" href="images/DSCF2691.JPG">
+                    <img src="images/DSCF2691.JPG" alt="Northern Lights" width="600" height="400">
+                    </a>
+                    <div class="desc">Add a description of the image here</div>
+                    </div>
+                    </div>
+
+                    <div class="responsive">
+                    <div class="gallery">
+                    <a target="_blank" href="images/DSCF3114.JPG">
+                    <img src="images/DSCF3114.JPG" alt="Mountains" width="600" height="400">
+                    </a>
+                    <div class="desc">Add a description of the image here</div>
+                    </div>
+                    </div>
+                    
+                    <div class="responsive">
+                    <div class="gallery">
+                    <a target="_blank" href="images/DSCF2622.JPG">
+                    <img src="images/DSCF2622.JPG" alt="Mountains" width="600" height="400">
+                    </a>
+                    <div class="desc">Add a description of the image here</div>
+                    </div>
+                    </div>
+                    
+                    <div class="responsive">
+                    <div class="gallery">
+                    <a target="_blank" href="images/DSCF2596.JPG">
+                    <img src="images/DSCF2596.JPG" alt="Mountains" width="600" height="400">
+                    </a>
+                    <div class="desc">Add a description of the image here</div>
+                    </div>
+                    </div>
+                    
+                    <div class="responsive">
+                    <div class="gallery">
+                    <a target="_blank" href="images/DSCF2883.JPG">
+                    <img src="images/DSCF2883.JPG" alt="Mountains" width="600" height="400">
+                    </a>
+                    <div class="desc">Add a description of the image here</div>
+                    </div>
+                    </div>
+                    
+                    <div class="responsive">
+                    <div class="gallery">
+                    <a target="_blank" href="images/DSCF2451.JPG">
+                    <img src="images/DSCF2451.JPG" alt="Mountains" width="600" height="400">
+                    </a>
+                    <div class="desc">Add a description of the image here</div>
+                    </div>
+                    </div>
+
+                    <div class="clearfix"></div>
+
+                    <div style="padding:6px;">
+                    </div>
+                </article>
+            </section>
+        </div>
+        <footer>
+            Created by Maksymilian Rożenej 2018
+        </footer>
+    </body>  
+</html>
